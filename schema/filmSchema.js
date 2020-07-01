@@ -17,6 +17,7 @@ exports.createSchema = () => {
             release_date: String, 
             poster_path: String,
             backdrop_path: String,
+            vote_average: String,
         }
 
         type Search{
@@ -27,6 +28,7 @@ exports.createSchema = () => {
             release_date: String, 
             poster_path: String,
             backdrop_path: String, 
+            vote_average: String,
         }
     `); 
 }
