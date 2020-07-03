@@ -4,7 +4,7 @@ const axios = require('axios');
 
 const supportFunction = (args) => {
     
-    return axios.get(`https://api.themoviedb.org/3/search/${args.id}?query=batman&api_key=cfe422613b250f702980a3bbf9e90716`)
+    return axios.get(`https://api.themoviedb.org/3/search/movie?query=${args.id}&api_key=cfe422613b250f702980a3bbf9e90716`)
     .then(result => result)
 }
 
