@@ -9,5 +9,5 @@ exports.getDataByMovie = (id) => {
             'Content-Type': 'application/json',
             'X-Requested-With': 'XMLHttpRequest'
         }
-    })
+    }).then(data => data);
 }

@@ -7,15 +7,14 @@ exports.createSchema = () => {
             movie: [Movie]
             search(name: String): [Search]
             searchById(id: String): [Search]
-            movieItem(id: String): [Movie]
-            searchByName(id: String): Movie
+            movieItem(id: String): Movie
         }
 
         type MovieItem{
             id: String,
             title: String,
             overview: String,
-            popularity: Float, 
+             
             release_date: String, 
             poster_path: String,
             backdrop_path: String,

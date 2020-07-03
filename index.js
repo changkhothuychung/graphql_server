@@ -4,6 +4,7 @@ const app = express();
 app.use(cors());
 
 require('./routes/web')(app); 
+require('./routes/web1')(app);
 
 app.get('/api/test', (req,res) => {
     res.send('abc'); 
