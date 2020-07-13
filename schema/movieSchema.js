@@ -14,7 +14,6 @@ exports.createSchema = () => {
             id: String,
             title: String,
             overview: String,
-             
             release_date: String, 
             poster_path: String,
             backdrop_path: String,
