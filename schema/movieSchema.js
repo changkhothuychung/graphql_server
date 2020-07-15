@@ -18,7 +18,7 @@ exports.createSchema = () => {
             poster_path: String,
             backdrop_path: String,
             vote_average: String,
-            genres_id: [String],
+            genre_ids: [String],
         }
 
         type Movie{
@@ -30,7 +30,7 @@ exports.createSchema = () => {
             poster_path: String,
             backdrop_path: String,
             vote_average: String,
-            genres_id: [String],
+            genre_ids: [String],
         }
 
         type Search{
@@ -42,7 +42,7 @@ exports.createSchema = () => {
             poster_path: String,
             backdrop_path: String, 
             vote_average: String,
-            genres_id: [String],
+            genre_ids: [String],
         }
     `); 
 }
