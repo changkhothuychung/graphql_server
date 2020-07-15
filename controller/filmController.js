@@ -64,9 +64,6 @@ exports.getData = () => {
             });
 
             
-           
-           
-
             const searchMovie = (name) => returndata.filter((movie)=> movie.title == name);
             const searchMovieById = (id) => returndata.filter((movie)=> movie.id == id);
             const root = {
